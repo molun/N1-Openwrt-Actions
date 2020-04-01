@@ -20,8 +20,8 @@ on:
       - '.github/workflows/N1.yml'
   schedule:
     - cron: 0 19 * * *
-#  watch:
-#    types: [started]
+  watch:
+    types: [started]
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede.git
